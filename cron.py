@@ -1,7 +1,7 @@
 import os, requests
 
 URL = "https://incentivibotrailway-production.up.railway.app/run"
-KEY = os.getenv("RUN_SECRET", "")
+KEY = os.getenv("sabato", "")
 
 def main():
     if not KEY:
