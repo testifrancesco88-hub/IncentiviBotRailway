@@ -3,7 +3,7 @@ import os, requests
 from datetime import datetime
 
 URL = "https://incentivibotrailway-production.up.railway.app/tick"
-KEY = os.getenv("RUN_SECRET", "")
+KEY = os.getenv("sabato", "")
 
 def main():
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
